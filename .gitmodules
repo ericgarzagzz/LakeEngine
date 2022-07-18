@@ -1,0 +1,3 @@
+[submodule "LakeEngine/vendor/spdlog"]
+	path = LakeEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
