@@ -4,6 +4,9 @@
     <Filter Include="LakeEngine">
       <UniqueIdentifier>{B87B2A53-A433-6CA0-0D3B-45FCF9110791}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LakeEngine\Events">
+      <UniqueIdentifier>{9CC8F81B-08DF-F6B1-5156-82D3BDABC739}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\LakeEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\LakeEngine\EntryPoint.h">
       <Filter>LakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LakeEngine\Events\ApplicationEvent.h">
+      <Filter>LakeEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LakeEngine\Events\Event.h">
+      <Filter>LakeEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LakeEngine\Events\KeyEvent.h">
+      <Filter>LakeEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LakeEngine\Events\MouseEvent.h">
+      <Filter>LakeEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\LakeEngine\Log.h">
       <Filter>LakeEngine</Filter>

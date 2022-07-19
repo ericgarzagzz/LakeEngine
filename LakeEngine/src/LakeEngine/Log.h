@@ -3,6 +3,7 @@
 #include <memory>
 #include "Core.h"
 #include <spdlog/spdlog.h>
+#include <spdlog/fmt/ostr.h>
 
 namespace LakeEngine {
 	class LAKE_ENGINE_API Log
